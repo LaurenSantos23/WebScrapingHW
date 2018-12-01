@@ -1,0 +1,26 @@
+{
+  "name": "webscrapinghw",
+  "version": "1.0.0",
+  "description": "web application using cheerio, mongoose, mongoDb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaurenSantos23/WebScrapingHW.git"
+  },
+  "author": "lauren santosuosso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LaurenSantos23/WebScrapingHW/issues"
+  },
+  "homepage": "https://github.com/LaurenSantos23/WebScrapingHW#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.3.14"
+  }
+}
