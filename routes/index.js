@@ -107,8 +107,3 @@ router.post("/articles/:id", function(req, res){
 });
 
 module.exports= router;
-
-module.exports = {
-    Article: require("./Article"),
-    Note: require("./Note")
-  };
