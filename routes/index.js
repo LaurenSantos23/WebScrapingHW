@@ -26,7 +26,7 @@ router.get("/", function(req, res){
 router.get("/scrape", function(req, res) {
     axios.get("http://www.echojs.com/").then(function(response) {
         var $ = cheerio.load(response.data);
-        // console.log($("article h2"))
+        console.log($("article h2"))
 
         //grab all the h2 within article tag
         $("article h2").each(function(i, element){
