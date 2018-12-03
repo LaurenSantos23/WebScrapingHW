@@ -87,7 +87,7 @@ router.get('./articles/:id', function(req, res) {
 });
 
 //route for saving/updating an articles associated note
-app.post("/articles/:id", function(req, res){
+router.post("/articles/:id", function(req, res){
     // create a new note and pass the req.body to the entry
     db.Note.create(req.body)
     .then(function(dbNote){
@@ -107,3 +107,8 @@ app.post("/articles/:id", function(req, res){
 });
 
 module.exports= router;
+
+module.exports = {
+    Article: require("./Article"),
+    Note: require("./Note")
+  };
