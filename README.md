@@ -6,16 +6,14 @@ This is a web app that lets users view and leave comments on the latest news. It
 
 ### Dependencies and Packages
 
-   * express
 
-  * express-handlebars
 
-   3. mongoose
-
-   4. cheerio
-
-   5. axios
-   
+* [express](https://www.npmjs.com/package/express)
+* [express-handlebars](https://www.npmjs.com/package/express-handlebars)
+* [mongoose](https://www.npmjs.com/package/mongoose)
+* [cheerio](https://www.npmjs.com/package/cheerio)
+* [axios](https://www.npmjs.com/package/axios)
+  
  ### Application Walk-through
 
 * Whenever a user visits this site, the app scrapes stories from a news outlet and displays them for the user. Each scraped article is saved to a Heroku database. The app scrapes and displays the following information for each article:
