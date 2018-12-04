@@ -26,5 +26,10 @@ This is a web app that lets users view and leave comments on the latest news. It
 
 * Users can leave comments on the articles displayed and revisit them later. The comments are saved to the Heroku database and associated with their articles. User can delete comments left on articles. All stored comments are visible to every user.
 
+### Screenshots will Go Here
+
+
+### Link to deployed site will go here
+
 
 
