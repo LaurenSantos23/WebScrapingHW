@@ -10,7 +10,7 @@ var axios = require("axios");
 var cheerio = require("cheerio");
 
 // //require all models
-//  var db = require('./models')
+var db = require('./models')
 
 //use morgan logger for logging requests
 router.use(logger('dev'));
