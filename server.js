@@ -8,6 +8,9 @@ var app = express();
 
 var routes= require("./routes")
 
+// //require all models
+var db = require("./models");
+
 app.use(express.urlencoded({ extended: true}))
 
 app.use(express.json())
