@@ -1,6 +1,94 @@
-    <div id="wrapper">
-      <h1>Scraping the bottom of the Interwebs for News!</h1>
-      <h2><i>News Articles will go here once it's working!</i></h2>
-      <div id="articles"></div>
-      <div id="notes"></div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mongo Scraper</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0/materia/bootstrap.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="/">Mongo Scraper</a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/saved">Saved Articles</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-danger scrape-new">SCRAPE NEW ARTICLES!</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-danger clear">CLEAR ARTICLES!</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <div class="overlay">
+  </div>
+  <div class="background-image">
+  </div>
+  <div class="caption">
+    <h1>Mongo Scraper</h1>
+    <p>New York Times Edition</p>
+  </div>
+</div>
+<div class="container-fluid article-container">
+  <div data-_id="5c0d5d980d186200144e9c8a" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/12/04/us/porch-detroit-black-life.html">On the Front Porch, Black Life in Full View11 of Our Best Weekend Reads</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
     </div>
+    <div class="card-body">In its framed simplicity, the front porch has been a fixture in American life, and among African-Americans in Detroit it holds outsize cultural significance.Undocumented workers at the president’s New Jersey golf course. Cookies to heal the soul. The 2018 gift guide. Isabel Wilkerson on Michelle Obama. And more.</div>
+  </div>
+    <div data-_id="5c0d5d980d186200144e9c89" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/12/09/world/europe/theresa-may-brexit.html">Theresa May Tried to Lead Britain to a Brexit Compromise. Was It Too Late?With Brexit Vote Looming, Britons on Both Sides Rally in LondonIn an effort to revive Britain’s local news, smaller publishers can get part of a TV license fee that finances the BBC.</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">An anti-Islam activist led a march for a clean split from Europe, while others set out to prove that Brexit negotiations did not need to fuel hate-filled politics.</div>
+  </div>
+    <div data-_id="5c0d5d980d186200144e9c88" class="card">
+    <div class="card-header">
+      <h3>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="https://www.nytimes.com/2018/12/08/world/middleeast/saudi-mbs-jared-kushner.html">The Wooing of Jared Kushner: How the Saudis Got a Friend in the White HouseChina, Facing Difficult Balancing Act, Summons U.S. Envoy Over Huawei ArrestJohn Kelly, Trump’s Chief of Staff, to Leave White House</a>
+        <a class="btn btn-success save">Save Article</a>
+      </h3>
+    </div>
+    <div class="card-body">China’s leadership is seeking to maintain a recent thaw with the United States while lashing out at the arrest of a top Chinese tech executive.The exit leaves President Trump with a shrinking team of close advisers as he begins to navigate the new power structure on Capitol Hill.</div>
+  </div>
+   </div>
+
+<footer class="footer">
+  <div class="container">
+    <p>New York Times Mongo Scraper</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+<script src="/assets/javascript/index.js"></script>
+
+</body>
+
+</html>

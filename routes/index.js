@@ -9,6 +9,8 @@ var bodyParser = require("body-parser")
 var axios = require("axios");
 var cheerio = require("cheerio");
 
+var db = require("../models");
+
 //use morgan logger for logging requests
 router.use(logger('dev'));
 //use body parser for handling form submissions
