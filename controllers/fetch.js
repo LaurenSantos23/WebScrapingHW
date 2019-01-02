@@ -1,7 +1,7 @@
 // Controller for our scraper
 // ============================
 var db = require("../models");
-var scrape = require("../routes/scrape");
+var scrape = require("../scripts/scrape");
 
 module.exports = {
   scrapeHeadlines: function(req, res) {
