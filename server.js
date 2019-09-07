@@ -42,3 +42,6 @@ mongoose.connect(MONGODB_URI);
 app.listen(PORT, function() {
   console.log("Listening on port: " + PORT);
 });
+
+
+// mongodb+srv://LaurenSantos23:<password>@cluster0-cxpev.mongodb.net/test?retryWrites=true&w=majority
