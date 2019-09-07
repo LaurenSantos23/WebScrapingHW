@@ -62,4 +62,3 @@ var scrape = function() {
 
 // Export the function, so other files in our backend can use it
 module.exports = scrape;
-

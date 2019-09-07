@@ -11,7 +11,7 @@ var noteSchema = new Schema({
   // The headline is the article associate with the note
   _headlineId: {
     type: Schema.Types.ObjectId,
-    ref: "Article"
+    ref: "Headline"
   },
   // date is just a string
   date: {

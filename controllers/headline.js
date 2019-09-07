@@ -5,7 +5,7 @@ var db = require("../models");
 module.exports = {
   // Find all headlines, sort them by date, send them back to the user
   findAll: function(req, res) {
-    db.ArticleSchema
+    db.Headline
       .find(req.query)
       .sort({ date: -1 })
       .then(function(dbHeadline) {
@@ -14,7 +14,7 @@ module.exports = {
   },
   // Delete the specified headline
   delete: function(req, res) {
-    db.ArticleSchema.remove({ _id: req.params.id }).then(function(dbHeadline) {
+    db.Headline.remove({ _id: req.params.id }).then(function(dbHeadline) {
       res.json(dbHeadline);
     });
   },

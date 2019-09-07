@@ -1,11 +1,15 @@
+// Headline model
+// ==============
+
+// Require mongoose
 var mongoose = require("mongoose");
 
-// Save a reference to the Schema constructor
+// Create a schema class using mongoose's schema method
 var Schema = mongoose.Schema;
 
-// Using the Schema constructor, create a new UserSchema object
-// This is similar to a Sequelize model
-var ArticleSchema = new Schema({
+// Create the headlineSchema with our schema class
+var headlineSchema = new Schema({
+  // headline, a string, must be entered
   headline: {
     type: String,
     required: true,
@@ -32,8 +36,9 @@ var ArticleSchema = new Schema({
   }
 });
 
-// This creates our model from the above schema, using mongoose's model method
-var Article = mongoose.model("Article", ArticleSchema);
+// Create the Headline model using the headlineSchema
+var Headline = mongoose.model("Headline", headlineSchema);
 
-// Export the Article model
-module.exports = Article;
+// Export the Headline model
+module.exports = Headline;
+
