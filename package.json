@@ -24,7 +24,7 @@
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
     "mongodb": "^3.3.2",
-    "mongoose": "^5.3.14",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "nodemon": "^1.18.7"
   }
